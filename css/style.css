@@ -304,12 +304,6 @@ align-items:center;
   justify-content:  space-between;
 }
 
-/* .contacts-icon ul li{
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-} */
-
 .contacts-icon li {
   display: flex;
   flex-direction: column;
@@ -320,7 +314,3 @@ align-items:center;
  .contacts-icon ul li img {
   width: 39px;
   }
-
-/* .contacts-item ul li img {
-  width: 39px;
-} */
