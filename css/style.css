@@ -37,23 +37,30 @@ body {
   justify-content: space-between;
 }
 
-.menu li{
+.menu li {
   display: flex;
   align-items: center;
 }
-.menu a{
+.menu a {
   color: #828282;
   text-decoration: none;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
 }
-.menu-firs a {
+
+
+/* .menu li>a :first-child {
+  color: black;
+} */
+
+.menu-first a {
   color: black;
 }
+
 .menu-last a {
   padding-right: 0;
-  height: 30px;
+  /* height: 30px; */
   width: 75px;
 } 
 
@@ -73,7 +80,7 @@ body {
   align-items: flex-end;
 }
 
-.laptop{
+.laptop {
   height: 500px;
   width: 945px;
   left: 250px;
@@ -100,7 +107,7 @@ body {
   margin: 50px 0 46px 0;
 }
 
-.about-me-data{
+.about-me-data {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -121,12 +128,12 @@ body {
 }
 
 .about-me-data-text p {
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 /* Skills */
@@ -173,22 +180,22 @@ width: 91px;
 }
 
 .skills-program-name {
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
-color: #828282;
-margin: 25px 0 41px 0;
-min-height: 30px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #828282;
+  margin: 25px 0 41px 0;
+  min-height: 30px;
 }
 
 .skills-program li {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
 }
 
 .skills-stars::before {
@@ -297,10 +304,6 @@ align-items:center;
   padding: 0;
   overflow: hidden;
   display: flex;
-  align-items: flex-end;
-
-  display: flex;
-  flex-direction: row;
   justify-content:  space-between;
 }
 
@@ -309,8 +312,8 @@ align-items:center;
   flex-direction: column;
   justify-content: space-around;
   align-items:center;
-  }
+}
 
- .contacts-icon ul li img {
+.contacts-icon ul li img {
   width: 39px;
-  }
+}
