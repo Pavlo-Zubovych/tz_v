@@ -58,27 +58,25 @@ body {
   height: 150px;
   display: flex;
   justify-content: space-between;
-
 }
 .user-info h1 {
-font-size: 47px;
-font-weight: 700;
-line-height: 55px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 35px;
-
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 35px;
 }
 .user-info div {
-font-size: 18px;
-font-weight: 500;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: right;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-margin-top: 41px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 41px;
 }
 
 .laptop {
@@ -88,6 +86,7 @@ margin-top: 41px;
   top: 240px;
   border-radius: 5px;
 }
+
 /* About me */
 
 #about-me {
@@ -135,13 +134,10 @@ margin-top: 41px;
 #skills {
   height: 400px;
   background-color: #fff;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 #skills h2 {
-  margin: 50px 0 50px 0;
+  margin: 50px 0;
 }
 
 .skills-list {
@@ -184,18 +180,17 @@ margin-top: 41px;
   content: "\2605";
 }
 
-.hollow,
-.solid {
+.hollow, .solid {
   font-size: 23px;
   padding: 0 5px;
 }
+
 /* Portfolio */
 
 #portfolio {
   height: 2087px;
   background-color: #f4f4f4;
 }
-
 
 #portfolio h2 {
   margin: 50px 0;
