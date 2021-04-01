@@ -3,32 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TZ_ZPU</title>
+    <title>Test Task</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
     />
   </head>
   <body>
     <div class="page">
-      <section id="home">
-        <div class="content">
+      <section id="home" class="justify-center">
+        <article class="content">
           <nav class="menu">
             <ul>
-              <li class="menu-first"><a href="#home">Home</a></li> 
+              <li><a href="#home">Home</a></li>
               <li><a href="#about-me">About me</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
-              <li class="menu-last"><a href="#contacts">Contacts</a></li>
+              <li><a href="#contacts">Contacts</a></li>
             </ul>
           </nav>
           <hr />
-          <article class="home">
-            <div class="home-title">
+          <div class="home">
+            <div class="user-info">
               <h1>Margo Smith</h1>
-              <div class="home-title-left">
+              <div>
                 <span>UX | UI designer from California</span>
                 <span>24 years old</span>
               </div>
@@ -38,102 +38,129 @@
               src="img/b8baae1e51f13948e7cf83b3bd243044.jpeg"
               alt="laptop"
             />
-          </article>
-        </div>
+          </div>
+        </article>
       </section>
 
       <section id="about-me">
-        <article class="content about-details">
-          <h2>About me</h2>
-          <div class="about-me-data">
-            <img src="img/image.png" alt="foto-fase">
-            <div class="about-me-data-text">
-              <p>Hi, I'm Margo – UX/UI designer from California. 
-                I'm interested in design and everything connected
-                with it.</p> 
-              <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
-              <p>Ready to implement excellent projects with wonderful people.</p>
+        <article class="content">
+          <h2 class="section-title">About me</h2>
+          <div class="detailed-info">
+            <img src="img/image.png" alt="photo-face" />
+            <div>
+              <p>
+                Hi, I'm Margo – UX/UI designer from California. I'm interested
+                in design and everything connected with it.
+              </p>
+              <p>
+                I'm studying at courses "Web and mobile design interfaces" in
+                IT-Academy.
+              </p>
+              <p>
+                Ready to implement excellent projects with wonderful people.
+              </p>
             </div>
-            </div>
-        </article>
-      </section>
-      <section id="skills">
-        <article class="content skills-details"> 
-          <h2>Skills</h2>
-          <div class="skills-program">
-            <ul>
-              <li><img src="img/Ps1.png" alt="Adobe Photoshop">
-                <span class="skills-program-name">Adobe <br> Photoshop</span>
-                <div>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="skills-stars"></span>
-                </div>
-              </li>
-              <li><img src="img/Ai.png" alt="Adobe Illustrator">
-                <span class="skills-program-name">Adobe <br> Illustrator</span>
-                <div>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="skills-stars"></span>
-                  <span class="skills-stars"></span>
-                </div></li>
-              <li><img src="img/Ae.png" alt="Adobe After Effects">
-                <span class="skills-program-name">Adobe <br> After Effects</span>
-                <div>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="skills-stars"></span>
-                </div>
-              </li>
-              <li><img src="img/figma2.png" alt="Figma">
-                <span class="skills-program-name">Figma</span>
-                <div>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                  <span class="black-stars"></span>
-                </div>
-              </li>
-            </ul>
           </div>
         </article>
       </section>
-      <section id="portfolio">
-        <article class="content portfolio-details">
-          <h2>Portfolio</h2>
-          <div class="portfolio-screen">
-            <ul>
-              <li><img src="img/Screenshot_1.png" alt="Screenshot_1">
+
+      <section id="skills" class="column align-center">
+        <article class="content">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-list">
+            <li>
+              <img src="img/Ps1.png" alt="Adobe Photoshop" />
+              <span class="name">Adobe <br/>Photoshop</span>
+              <div>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="hollow"></span>
+              </div>
+            </li>
+            <li>
+              <img src="img/Ai.png" alt="Adobe Illustrator" />
+              <span class="name">Adobe<br/>Illustrator</span>
+              <div>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="hollow"></span>
+                <span class="hollow"></span>
+              </div>
+            </li>
+            <li>
+              <img src="img/Ae.png" alt="Adobe After Effects" />
+              <span class="name">Adobe <br/>After Effects</span>
+              <div>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="hollow"></span>
+              </div>
+            </li>
+            <li>
+              <img src="img/figma2.png" alt="Figma" />
+              <span class="name">Figma</span>
+              <div>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+                <span class="solid"></span>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="portfolio" class="column align-center">
+        <article class="content">
+          <h2 class="section-title">Portfolio</h2>
+          <ul class="portfolio-list">
+            <li>
+              <img src="img/Screenshot_1.png" alt="Screenshot_1" />
               <p><a href="">Online fashion store - Homepage</a></p>
             </li>
-              <li><img src="img/Screenshot_2.png" alt="Screenshot_2">
-                <p><a href="">Helias Store - Concept</a></p>
-              </li>
-              <li><img src="img/Screenshot_3.png" alt="Screenshot_3">
-                <p><a href="">Hoang Nguen Landing Page - Concept</a></p>
-              </li>
-            </ul>
-          </div>
+            <li>
+              <img src="img/Screenshot_2.png" alt="Screenshot_2" />
+              <p><a href="">Helias Store - Concept</a></p>
+            </li>
+            <li>
+              <img src="img/Screenshot_3.png" alt="Screenshot_3" />
+              <p><a href="">Hoang Nguen Landing Page - Concept</a></p>
+            </li>
+          </ul>
         </article>
       </section>
-      <section id="contacts">
-        <article class="content contacts-details"> 
-          <h2>Contacts</h2>
-          <div class="contacts-icon">
-            <ul>
-              <li><a href="https://www.linkedin.com/"><img src="img/icon_1.png" alt="linkedin"></a></li>
-              <li><a href="https://www.instagram.com/"><img src="img/icon_2.png" alt="instagram"></a></li>
-              <li><a href="https://www.behance.net/"><img src="img/icon_3.png" alt="behance"></a></li>
-              <li><a href="https://dribbble.com/"><img src="img/icon_4.png" alt="dribbble"></a></li>
-            </ul>
-          </div>
+
+      <section id="contacts" class="justify-center">
+        <article class="content justify-center align-center column">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts-list">
+            <li>
+              <a href="https://www.linkedin.com/">
+                <img src="img/icon_1.png" alt="linkedin"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img src="img/icon_2.png" alt="instagram"/>
+            </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/">
+                <img src="img/icon_3.png" alt="behance"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/">
+                <img src="img/icon_4.png" alt="dribbble"/>
+              </a>
+            </li>
+          </ul>
         </article>
       </section>
     </div>

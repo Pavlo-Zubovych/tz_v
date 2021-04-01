@@ -1,23 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #E5E5E5;
-  font-family: 'Roboto', sans-serif;
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
-  
 }
 .page {
-  background: #FFFFFF;
+  background: #ffffff;
   width: 1445px;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 }
 #home {
   width: 100%;
   height: 840px;
-  background: #FFFFFF;
-  display: flex;
-  justify-content: center;
+  background: #ffffff;
 }
 
 .content {
@@ -45,39 +45,40 @@ body {
   color: #828282;
   text-decoration: none;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
 }
 
-
-/* .menu li>a :first-child {
-  color: black;
-} */
-
-.menu-first a {
+.menu li a:hover {
   color: black;
 }
-
-.menu-last a {
-  padding-right: 0;
-  /* height: 30px; */
-  width: 75px;
-} 
-
 
 /* Home */
 
-.home-title {
+.user-info {
   height: 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
 
-.home-title-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+}
+.user-info h1 {
+font-size: 47px;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 35px;
+
+}
+.user-info div {
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin-top: 41px;
 }
 
 .laptop {
@@ -92,29 +93,23 @@ body {
 #about-me {
   width: 100%;
   height: 640px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
 }
 
-.about-details h2 {
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: center;
+#about-me h2 {
   margin: 50px 0 46px 0;
 }
 
-.about-me-data {
+.detailed-info {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.about-me-data img {
+.detailed-info img {
   height: 450px;
   width: 450px;
   left: 250px;
@@ -122,14 +117,13 @@ body {
   border-radius: 5px;
 }
 
-.about-me-data-text {
+.detailed-info div {
   height: 220px;
   width: 451px;
 }
 
-.about-me-data-text p {
+.detailed-info div p {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 23px;
   letter-spacing: 0em;
@@ -139,33 +133,18 @@ body {
 /* Skills */
 
 #skills {
-  display: flex;
-  justify-content: center;
-}
-
-.skills-details {
   height: 400px;
-  background-color: #FFF;
-  display: flex;
+  background-color: #fff;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
-.skills-details h2{
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: center;
+#skills h2 {
   margin: 50px 0 50px 0;
 }
 
-.skills-program {
-  width: 100%;
-}
-
-.skills-program ul {
+.skills-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -175,13 +154,19 @@ body {
   justify-content: space-between;
 }
 
-.skills-program img {
-width: 91px;
+.skills-list img {
+  width: 91px;
 }
 
-.skills-program-name {
+.skills-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skills-list .name {
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0em;
@@ -191,21 +176,16 @@ width: 91px;
   min-height: 30px;
 }
 
-.skills-program li {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items:center;
-}
-
-.skills-stars::before {
+.hollow::before {
   content: "\2606";
-
 }
-.black-stars::before {
+
+.solid::before {
   content: "\2605";
 }
-.skills-stars, .black-stars {
+
+.hollow,
+.solid {
   font-size: 23px;
   padding: 0 5px;
 }
@@ -213,107 +193,95 @@ width: 91px;
 
 #portfolio {
   height: 2087px;
-  background-color: #F4F4F4;
-  display: flex;
-  justify-content: center;
+  background-color: #f4f4f4;
 }
 
-.portfolio-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.portfolio-details h2 {
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: center;
+#portfolio h2 {
   margin: 50px 0;
 }
 
-.portfolio-screen ul {
+.portfolio-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.portfolio-screen img {
+.portfolio-list img {
   width: 100%;
   height: 510px;
   border-radius: 5px;
 }
 
-.portfolio-screen p {
+.portfolio-list p {
   text-align: center;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0em;
   margin: 40px 0 86px 0;
 }
 
-.portfolio-screen a {
+.portfolio-list a {
   color: #000000;
 }
 
-.portfolio-screen p:last-child {
+.portfolio-list p:last-child {
   margin-bottom: 50px;
 }
-
-
 
 /* Contacts */
 
 #contacts {
   height: 219px;
-  width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   display: flex;
   justify-content: center;
-
-  
 }
 
-.contacts-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contacts-details h2 {
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: center;
+#contacts h2 {
   margin: 50px 0 37px;
 }
 
-.contacts-icon {
-  width:35%;
-}
-
-.contacts-icon ul {
-  width: 100%;
+.contacts-list {
+  width: 340px;
   list-style-type: none;
   margin: 2px;
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content:  space-between;
+  justify-content: space-between;
 }
 
-.contacts-icon li {
+.contacts-list li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
 }
 
-.contacts-icon ul li img {
+.contacts-list li img {
   width: 39px;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
 }
