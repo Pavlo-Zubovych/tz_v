@@ -55,6 +55,12 @@ body {
   color: black;
 }
 
+#home hr{
+  height: 1px;
+  background-color: #828282;
+  margin: 0 0 0 0;
+}
+
 /* Home */
 
 .user-info {
@@ -263,6 +269,8 @@ body {
 .contacts-list li img {
   width: 39px;
 }
+
+/* Clases*/
 
 .justify-center {
   display: flex;
