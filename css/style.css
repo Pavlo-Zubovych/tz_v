@@ -232,7 +232,7 @@ body {
   color: #000000;
 }
 
-.portfolio-list p:last-child {
+.portfolio-list li:last-child p {
   margin-bottom: 50px;
 }
 
